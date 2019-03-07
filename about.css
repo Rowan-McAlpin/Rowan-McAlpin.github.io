@@ -1,0 +1,19 @@
+body{
+	background-color: white; 
+	border: 2px solid gray;
+	border-radius: 16px;
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1024px;
+	min-width: 256;
+	padding-top: 8px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+html{
+	background: radial-gradient(circle, skyblue, skyblue 50%, lightcyan 50%, skyblue);
+	background-size: 30px 30px;
+}
