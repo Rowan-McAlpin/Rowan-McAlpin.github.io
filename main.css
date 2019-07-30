@@ -11,6 +11,11 @@ nav {
 	font-size: 23px;
 }
 
+.center {
+	text-align: center;
+	font-family: Veranda sans-serif;
+}
+
 nav a{
 	text-decoration: none;
 	color: #000;
