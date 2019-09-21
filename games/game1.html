@@ -1,37 +1,35 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Game (Finally)</title>
-    <link rel="stylesheet"  type="text/css" href="main.css">
-    <style>
-      canvas {
-        border: 1px solid #d3d3d3;
-        background-color: #f1f1f1;
-      }
-  </head>
-  <body>
-    <h1>FINALLY THE PUZZLE HAS ARRIVED!!!</h1>
-    <h3>Please note: Pressing all of the buttons will (probably) lead to an error.</h3>
-    <h5>Just hit your browser's 'back' button.</h5>
-    <button onclick="startGame()">Start Game</button>
-    
-    <script>
+<head>
+<title>GAME IS HERE!!!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+<script>
 
-      function startGame() {
-        myGameArea.start();
-      }
+function startGame() {
+    myGameArea.start();
+}
 
-      var myGameArea = {
-        canvas : document.createElement("canvas"),
-        start : function() {
-          this.canvas.width = 480;
-          this.canvas.height = 270;
-          this.context = this.canvas.getContext("2d");
-          document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-      document.body.childNodes[0]);
-        }
-      }
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    }
+}
 
 </script>
-  </body>
+
+<p>We have created a game area! (or at least an empty canvas)</p>
+
+</body>
 </html>
