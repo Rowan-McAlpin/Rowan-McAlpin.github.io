@@ -38,6 +38,7 @@ nav a:hover {
 }
 
 body{
+	background-color: white;
 	border: 2px solid gray;
 	border-radius: 16px;
 	font-family: sans-serif;
