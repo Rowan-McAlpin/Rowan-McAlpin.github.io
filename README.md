@@ -1,2 +1,1 @@
-I have phased out the previous versions.
-The new version is be easier to use, and has a better layout and features.
+I have phased out ALL previous styles, content, and versions. I am resetting my version count, because I hated the other versions and I refuse to accept them as part of my websites history. There is information about this at rowan.cementhorizon.com.
