@@ -6,3 +6,9 @@ As the director of Egnition Labs said,
 There is information about this at [my website.](https://rowan.cementhorizon.com)
 
 Also, I have renamed my enterprise from Platinum Programming (I didnt like this name, because its more than a programming company) to Egnition Labratories (Egnition or Egnition Labs for short.)
+
+```python
+def funct():
+    print("Hello")
+funct()
+```
