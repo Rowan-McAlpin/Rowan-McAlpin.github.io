@@ -1,7 +1,13 @@
 # EGNITION LABS WEBSITE
-I have phased out ALL previous styles, content, and versions, and am resetting the version count. 
-As the director of Egnition Labs said,
-  > I hated the other versions and I refuse to accept them as part of my websites history. 
+I have phased out ALL previous styles, content, and versions, and am resetting the version count.
+
+Once again, I have updated the site. I am now using some tags like
+```html
+<header>
+<section>
+<article>
+<nav>
+```
 
 There is information about this at [my website.](https://rowan.cementhorizon.com)
 
