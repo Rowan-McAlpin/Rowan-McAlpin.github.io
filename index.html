@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Home | Egnition Labs</title>
-    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <script src="/scripts/master.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/styles/master.css">
   </head>
   <body>
-    <div class="header">
-      <div class="nav">
-        <ul>
-          <li><img src="./img/logoDark.png" alt="Egnition Labs logo"></li>
-          <div id="link">
-            <span class="current"><li><a href="index.html">Home</a></li></span>
-            <li><a href="dnd.html">D&D Zone</a></li>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a href="changelog.html">Changelog</a></li>
-          </div>
-        </ul>
+    <div class="wrapper">
+      <div id="page">
+        <header>
+          <h1>Egnition Labratories</h1>
+          <nav>
+            <ul>
+              <li><a href="index.html" class="current">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="archive.html">Archived</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section class="articles">
+          <article>
+            <hgroup>
+              <h2>Name Update</h2>
+              <h3>Platinum Programming got a name change!</h3>
+            </hgroup>
+            <p>Platinum Programming has decided to change their name, fully
+              bringing it into effect on June 13th, 2020. There were multiple
+              things that we took into account when deciding on this change,
+              including moving on beyond just programming.
+            </p>
+            <a href="name.html">Read more...</a>
+          </article>
+          <article>
+            <hgroup>
+              <h2>Version Editing</h2>
+              <h3>Egnition Labratories is growing up!</h3>
+            </hgroup>
+            <p>As said in version 1.0 of this website, we have reset all
+              versions and restarted the version count. This is version 2.0. We
+              will be proceeding to fix bugs, typos, and more as we progress to
+              version 2.1, then 2.2, etc.
+            </p>
+            <a href="versions.html">Read more...</a>
+          </article>
+        </section>
+        <aside>
+          <section class="trending">
+            <h2>Trending Articles</h2>
+            <a href="name.html">Update of Company Name</a>
+            <a href="versions.html">Website Version Control</a>
+          </section>
+        </aside>
+        <footer>
+          &copy; 2020 Egnition Labratories | Last updated: Wednesday, 24 June,
+          2020
+        </footer>
       </div>
-    </div>
-    <hr>
-    <div id="content">
-      <div id="feature">
-        <h3>What is <em>Egnition Labs</em>?</h3>
-        <p>Egnition Labs is a pseudo-company created and staffed by me, Rowan McAlpin. I do the programming and distribution.</p>
-      </div>
-      <div class="article column1">
-        <h3>Version count RESET</h3>
-        <p>With this complete renovation of this site, I have made the executive decision to reset my version count. From hereonafter, this version (version 4) will be titled version one.</p>
-        <p>The previous versions are <strong><em>history</em></strong>.</p>      </div>
-      <div class="article column2">
-        <h3>Fourth Edition Open!</h3>
-        <p>Remember those old days a couple of years back, where this very website was a graveyard of junky coding? Well, I have progressed above and beyond! This is the fourth version of my website, and it is <strong>way</strong> better than that first edition.</p>
-        <p>The second edition was where I introduced that iconic blue circled gradient background. The third update was when <emp>D&D Zone</emp> was introduced, along with some more ease of navigation.</p>
-        <p>And now, this fourth version! I have completely scrapped the CSS files, and have moved on to a much-more user-friendly <strong>fluid layout</strong>. I hope you enjoy this new site!</p>
-      </div>
-      <div class="article column3">
-        <h3>About</h3>
-        <p><strong>For an in-depth about me, visit the <em>about</em> section.</strong></p>
-      </div>
-    </div>
-    <hr>
-    <div id="footer">
-      <a href="indexDark.html">Dark Theme</a>
-      <p>&copy; Copyright 2020 Rowan McAlpin via Egnition Labs</p>
     </div>
   </body>
+</html>
