@@ -1,2 +1,2 @@
 import commentBox from 'commentbox.io'; // also available on CDN
-commentBox('my-project-id');
+commentBox('5654724959272960-proj');
