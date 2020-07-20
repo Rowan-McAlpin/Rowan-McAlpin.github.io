@@ -14,6 +14,7 @@ body {
 header {
   background-color: #e4e4e4;
   margin: auto;
+  margin-top: auto;
   margin-right: 1.0416667;
   margin-left: 1.0416667;
   width: 97.9166667%;
@@ -22,7 +23,7 @@ header {
 }
 nav {
   padding-bottom: 2.6595745;
-  margin-top: 26px;
+  margin-top: auto;
   margin-left: -1.0416667;
   padding-right: 1.0416667;
   padding-left: 1.0416667;
