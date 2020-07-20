@@ -41,7 +41,7 @@ nav li a:hover, nav li a.current {
   color: #212121;
 }
 aside {
-  font-family: Comic, cursive;
+  font-family: Georgia, Times, serif;
   border-right-color: #e8e8e8;
   border-right-style: solid;
   border-right-width: 0.2066116;
