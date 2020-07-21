@@ -86,6 +86,10 @@ footer {
   aside {
     display: table-header-group;
     width: 100%;
+    border-right: 0;
+    border-bottom-color: #e8e8e8;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2066116;
   }
   .articles {
     display: table-footer-group;
