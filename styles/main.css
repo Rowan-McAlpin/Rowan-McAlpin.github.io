@@ -13,10 +13,10 @@ body {
 }
 header {
   background-color: #e4e4e4;
-  width: 97.9166667%;
+  width: 100%;
   text-align: center;
   height: 2em;
-  margin-top: auto;
+  margin-top: 0;
 }
 nav {
   /* padding-bottom: 2.6595745%;
