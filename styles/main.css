@@ -78,3 +78,15 @@ footer {
   clear: both;
   width: 97.9166667%;
 }
+/* if on a small device, rearange the sidebar to the top */
+@media screen and (max-width: 768px) {
+  #wrapper {
+    display: table;
+  }
+  aside {
+    display: table-header-group;
+  }
+  .articles {
+    display: table-footer-group;
+  }
+}
