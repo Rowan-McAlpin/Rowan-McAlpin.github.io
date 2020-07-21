@@ -29,6 +29,7 @@ nav {
 nav ul li {
   display: inline;
   text-align: center;
+  margin-top: 0;
 }
 nav ul li a {
   text-decoration: none;
