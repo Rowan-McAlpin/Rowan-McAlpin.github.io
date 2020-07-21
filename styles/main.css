@@ -76,32 +76,37 @@ footer {
   width: 97.9166667%;
 }
 /* EXPERIMENTAL */
-/* .flex-container {
-  display: flex;
-} */
 /* ON SOMETHING WIDER THAN 768px */
 @media screen and (min-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
   aside {
-    display: inline-block;
+    /* display: inline-block; */
     border-right-color: #e8e8e8;
     border-right-style: solid;
     border-right-width: 0.2066116;
   }
-  .articles {
+  /* .articles {
     display: inline-block;
-  }
+  } */
 }
 /* ON SOMETHING NARROWER THAN 768px */
 @media screen and (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
   aside {
-    display: block;
+    /* display: block; */
     border-bottom-color: #e8e8e8;
     border-bottom-style: solid;
     border-bottom-width: 0.2066116;
   }
-  .articles {
+  /* .articles {
     display: block;
-  }
+  } */
 }
 /* if on a small device, rearange the sidebar to the top */
 /* @media screen and (max-width: 768px) {
