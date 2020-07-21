@@ -85,8 +85,10 @@ footer {
   }
   aside {
     display: table-header-group;
+    width: 100%;
   }
   .articles {
     display: table-footer-group;
+    width: 100%
   }
 }
