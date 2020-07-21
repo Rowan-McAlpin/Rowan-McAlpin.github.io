@@ -15,8 +15,8 @@ header {
   background-color: #e4e4e4;
   margin: auto;
   margin-top: auto;
-  margin-right: 1.0416667;
-  margin-left: 1.0416667;
+  margin-right: auto;
+  margin-left: auto;
   width: 97.9166667%;
   text-align: center;
   height: 1.5em;
@@ -24,9 +24,9 @@ header {
 nav {
   padding-bottom: 2.6595745;
   margin-top: auto;
-  margin-left: 1.0416667;
-  /* padding-right: 1.0416667;
-  padding-left: 1.0416667; */
+  margin-left: auto;
+  padding-right: 1.0416667;
+  padding-left: 1.0416667;
   width: 72.7083333%;
   display: inline-block;
 }
