@@ -18,7 +18,7 @@ header {
   margin-right: 1.0416667;
   margin-left: 1.0416667;
   width: 97.9166667%;
-  text-align: left;
+  text-align: center;
   height: 1.5em;
 }
 nav {
@@ -36,6 +36,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
+  padding: 5%;
 }
 nav li a:hover, nav li a.current {
   text-decoration: underline;
