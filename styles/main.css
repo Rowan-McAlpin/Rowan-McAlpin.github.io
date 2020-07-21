@@ -103,9 +103,8 @@ footer {
     border-bottom-color: #e8e8e8;
     border-bottom-style: solid;
     border-bottom-width: 0.2066116;
-    /* TEST */
-    color: rgb(152, 0, 255);
     width: 100%;
+    justify-content: center;
   }
   /* .articles {
     display: block;
