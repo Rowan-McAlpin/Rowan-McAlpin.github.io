@@ -13,20 +13,14 @@ body {
 }
 header {
   background-color: #e4e4e4;
-  margin: auto;
-  margin-top: auto;
-  margin-right: auto;
-  margin-left: auto;
   width: 97.9166667%;
   text-align: center;
   height: 1.5em;
 }
 nav {
-  padding-bottom: 2.6595745;
-  margin-top: auto;
-  margin-left: auto;
-  padding-right: 1.0416667;
-  padding-left: 1.0416667;
+  padding-bottom: 2.6595745%;
+  padding-right: 1.0416667%;
+  padding-left: 1.0416667%;
   width: 72.7083333%;
   display: inline-block;
 }
