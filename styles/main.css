@@ -36,7 +36,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
-  padding: 5%;
+  padding: 3%;
 }
 nav li a:hover, nav li a.current {
   text-decoration: underline;
