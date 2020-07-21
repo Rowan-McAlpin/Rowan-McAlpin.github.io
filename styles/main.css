@@ -42,14 +42,11 @@ nav li a:hover, nav li a.current {
 }
 aside {
   font-family: Georgia, Times, serif;
-  border-right-color: #e8e8e8;
-  border-right-style: solid;
-  border-right-width: 0.2066116;
   margin-top: 58px;
   padding-right: 1.0416667;
   margin-right: 1.0416667;
   margin-left: 1.0416667;
-  float: left;
+  /* float: left; */
   width: 22.7083333%;
 }
 aside section a {
@@ -59,7 +56,7 @@ aside section a {
   font-family: Georgia, Times, serif;
   margin-top: 58px;
   margin-right: 1.0416667;
-  float: right;
+  /* float: right; */
   width: 72.7083333%;
 }
 h1, h2, h3 {
@@ -69,7 +66,7 @@ h1, h2, h3 {
 footer {
   font-style: italic;
   font-size: 0.5em;
-  float: left;
+  float: center;
   background-color: #e4e4e4;
   text-align: center;
   margin-top: 20px;
@@ -78,8 +75,36 @@ footer {
   clear: both;
   width: 97.9166667%;
 }
-/* if on a small device, rearange the sidebar to the top */
+/* EXPERIMENTAL */
+/* .flex-container {
+  display: flex;
+} */
+/* ON SOMETHING WIDER THAN 768px */
+@media screen and (min-width: 768px) {
+  aside {
+    display: inline-block;
+    border-right-color: #e8e8e8;
+    border-right-style: solid;
+    border-right-width: 0.2066116;
+  }
+  .articles {
+    display: inline-block;
+  }
+}
+/* ON SOMETHING NARROWER THAN 768px */
 @media screen and (max-width: 768px) {
+  aside {
+    display: block;
+    border-bottom-color: #e8e8e8;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2066116;
+  }
+  .articles {
+    display: block;
+  }
+}
+/* if on a small device, rearange the sidebar to the top */
+/* @media screen and (max-width: 768px) {
   #wrapper {
     display: table;
   }
@@ -95,4 +120,4 @@ footer {
     display: table-footer-group;
     width: 100%
   }
-}
+} */
