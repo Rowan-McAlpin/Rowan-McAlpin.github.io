@@ -28,6 +28,7 @@ nav {
   /* padding-right: 1.0416667;
   padding-left: 1.0416667; */
   width: 72.7083333%;
+  display: inline-block;
 }
 nav ul li {
   display: inline;
