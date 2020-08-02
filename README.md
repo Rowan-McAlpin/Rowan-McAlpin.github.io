@@ -11,4 +11,4 @@ Once again, I have updated the site. I am now using some tags like
 
 There is information about this at [my website.](https://rowan.cementhorizon.com)
 
-Also, I have renamed my enterprise from Platinum Programming (I didnt like this name, because its more than a programming company) to Egnition Labratories (Egnition or Egnition Labs for short.)
+Create an issue to let me know what I should change, and I'll look into it when I get the chance. 
