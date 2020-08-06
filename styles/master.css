@@ -1,10 +1,10 @@
 /* The coloring and font */
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
-a:hover {
-    text-decoration: underline;
+a:hover, a:focus {
+    color: darkslategrey;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
