@@ -1,14 +1,8 @@
-# EGNITION LABS WEBSITE
-I have phased out ALL previous styles, content, and versions, and am resetting the version count.
+# Rowan McAlpin Website
+Once again, I have made a drastic change.
 
-Once again, I have updated the site. I am now using some tags like
-```html
-<header>
-<section>
-<article>
-<nav>
-```
+My CSS now is mobile-friendly, meaning it will rearrange itself when on a smaller device.
 
 There is information about this at [my website.](https://rowan.cementhorizon.com)
 
-Create an issue to let me know what I should change, and I'll look into it when I get the chance. 
+If you have a problem with the code, please start an issue, and I will be sure to check it out.
